@@ -17,7 +17,7 @@ Avant de lancer le backend de l'application, assurez-vous d'avoir Node.js et npm
 1. **Clonez ce dépôt sur votre machine :**
 
     ```bash
-    git clone [https://github.com/votre-utilisateur/Rplace-backend.git](https://github.com/Matthisphan/Rplace-api.git)
+    git clone https://github.com/votre-utilisateur/Rplace-backend.git
     ```
 
 2. **Accédez au répertoire du projet :**
