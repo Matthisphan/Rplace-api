@@ -71,6 +71,7 @@ router.post('/grid', verifyToken, async (req, res) => {
   try {
     const newGrid = new Grid({ row });
     console.log('Grid saved successfully');
+    await newGrid.save();
     res.status(201).send('Grid saved successfully');
   } catch (error) {
     console.error(error);
